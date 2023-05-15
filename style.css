@@ -21,6 +21,7 @@
     background-size: 80%;
     background-size: cover;
     color: white;
+    filter: grayscale(100%);
 }
 
 #menu{
