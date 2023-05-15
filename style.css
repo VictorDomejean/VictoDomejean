@@ -6,6 +6,10 @@
    body{
     margin: 0;
    }
+
+   html {
+    scroll-behavior:smooth;
+  }
 /* MAIN */
 #main{
     margin: 0;
@@ -29,7 +33,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
 }
 
 .menu-item{
@@ -62,6 +66,7 @@
     padding-inline: 10px;
 }
 #contact:hover{
+    transform: scale(1.03);
     text-decoration: none;
     cursor: pointer;
 }
@@ -71,7 +76,6 @@
     text-decoration-thickness: 2px;
     text-underline-offset: 5px;
     cursor: pointer;
-
 }
 
 #space{
@@ -101,6 +105,7 @@
     width: 25%;
     font-family: system-ui, sans-serif;
     font-size: smaller;
+    font-weight: lighter;
 }
 
 #banner{
@@ -110,5 +115,75 @@
 /* CORP */
 
 #corp{
+     display: flex;
+     margin-inline: 8%;
+     margin-top: 2%;
+}
 
+
+#articles-magasin{
+    display: flex;
+    height: 100%;
+    padding: 10px;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.article{
+    display: flex;
+    height: 300px;
+    width: 200px;
+    background: rgba(255,255,255,0.1);
+    max-width:350px;
+    border: 1px solid rgba(255,255,255, 0.2);
+    border-radius: 25px;
+    webkit-backdrop-filter: blur(30px); 
+    backdrop-filter: blur(10px); 
+    box-shadow: 1px 2px 3px rgb(43 43 43 / 23%);
+    color: #2c2c2c;
+}
+
+.article:hover{
+    background-color: #9999990e;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+#footer{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    flex-direction: column;
+    gap:50px;
+}
+
+#attributions{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px
+}
+
+.attrib{
+    display: flex;
+    font-family: system-ui, sans-serif;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.attrib:hover{
+    text-decoration: underline black;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    cursor: pointer;
+}
+
+#haut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
 }
