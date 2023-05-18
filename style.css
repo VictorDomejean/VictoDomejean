@@ -1,6 +1,6 @@
 * {
     font-size: 100%;
-    font-family: emoji;
+    font-family: 'ui-serif'
    }
 
    body{
@@ -101,6 +101,7 @@
     display: flex;
     margin: 0;
     font-size: xxx-large;
+    font-family: 'ui-serif'
 }
 
 #title-caption{
@@ -144,7 +145,6 @@
     background: rgba(255,255,255,0.1);
     max-width:350px;
     border: 1px solid rgba(255,255,255, 0.2);
-    border-radius: 25px;
     webkit-backdrop-filter: blur(30px); 
     backdrop-filter: blur(10px); 
     box-shadow: 1px 2px 3px rgb(43 43 43 / 23%);
