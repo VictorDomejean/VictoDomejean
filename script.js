@@ -19,7 +19,7 @@ fullimage.addEventListener('click', function() {
 });
 
 
-// gestion filtre sur les images
+// Gestion filtre sur les images
 const swicthbox = document.querySelector('#switch-checkbox');
 
 swicthbox.onclick = function(){
