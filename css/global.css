@@ -29,7 +29,7 @@ body::-webkit-scrollbar {
 #top{
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(img/background.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(/img/background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
@@ -154,6 +154,11 @@ body::-webkit-scrollbar {
 
 /* CORP */
 
+#page{
+    position: relative;
+    min-height: 100vh;
+}
+
 #corp{
      margin-inline: 100px;
      margin-top: 50px;
@@ -248,11 +253,15 @@ body::-webkit-scrollbar {
 }
 
 #contact-container{
-    display: flex;
-    gap: 40px;
-    align-items: center;
     justify-content: space-around;
     font-size: small;
+    margin-inline: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    color: #191919;
 }
 
 .icon-item{
@@ -307,19 +316,23 @@ body::-webkit-scrollbar {
 
 #footer{
     display: flex;
-    position: relative;
+    /* position: absolute; */
     margin-bottom: 25px;
     margin-top: 100px;
-    gap: 50px;
+    gap: 10px;
     bottom: 0;
     width: 100%;
     flex-direction: column;
 }
 
 #attributions{
+    justify-content: center;
+    gap: 100px;
     display: flex;
-    justify-content: space-around;
-    gap: 100px
+    flex-direction: row;
+    cursor: pointer;
+    color: #191919;
+    margin-top: 50px;
 }
 
 .attrib{
@@ -342,6 +355,7 @@ body::-webkit-scrollbar {
     align-items: center;
     cursor: pointer;
     color: #191919;
+    margin-top: 50px;
 }
 
 /* SWITCH */
