@@ -1,7 +1,7 @@
 import os
 import random
 
-quality = 50
+quality = 25
 
 input_dir = os.path.join(os.getcwd(), "img", "articles", str(quality))
 output_dir = os.path.join(os.getcwd(), "py", "html")

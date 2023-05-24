@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 
-quality = 30
+quality = 25
 
 input_articles_dir = os.path.join(os.getcwd(), "img", "articles", "100")
 ouput_articles_dir = os.path.join(os.getcwd(), "img", "articles", str(quality))

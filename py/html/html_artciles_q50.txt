@@ -1,13 +1,13 @@
-<div class="tall">
+<div class="">
         <img src="img/articles/50/001_DSC01289.jpg" alt="" />
     </div>
     <div class="big">
         <img src="img/articles/50/002_DSC01318.jpg" alt="" />
     </div>
-    <div class="wide">
+    <div class="tall">
         <img src="img/articles/50/003_DSC01425.jpg" alt="" />
     </div>
-    <div class="wide">
+    <div class="">
         <img src="img/articles/50/004_DSC01430.jpg" alt="" />
     </div>
     <div class="">
@@ -16,46 +16,46 @@
     <div class="">
         <img src="img/articles/50/006_DSC01452.jpg" alt="" />
     </div>
-    <div class="wide">
+    <div class="">
         <img src="img/articles/50/007_DSC01464.jpg" alt="" />
     </div>
-    <div class="">
+    <div class="big">
         <img src="img/articles/50/008_DSC01471.jpg" alt="" />
     </div>
     <div class="tall">
         <img src="img/articles/50/009_DSC01480.jpg" alt="" />
     </div>
-    <div class="wide">
+    <div class="">
         <img src="img/articles/50/010_DSC01493.jpg" alt="" />
     </div>
-    <div class="">
+    <div class="big">
         <img src="img/articles/50/011_IMG_20200927_154619.jpg" alt="" />
     </div>
-    <div class="">
+    <div class="tall">
         <img src="img/articles/50/012_P1010018.jpg" alt="" />
     </div>
-    <div class="">
+    <div class="big">
         <img src="img/articles/50/013_P1010065.jpg" alt="" />
     </div>
-    <div class="big">
+    <div class="tall">
         <img src="img/articles/50/014_P1010082.jpg" alt="" />
     </div>
-    <div class="tall">
+    <div class="wide">
         <img src="img/articles/50/015_P1280083.jpg" alt="" />
     </div>
-    <div class="tall">
+    <div class="big">
         <img src="img/articles/50/016_P2120103.jpg" alt="" />
     </div>
-    <div class="tall">
+    <div class="">
         <img src="img/articles/50/017_P2120114.jpg" alt="" />
     </div>
-    <div class="">
+    <div class="tall">
         <img src="img/articles/50/018_P2250319.jpg" alt="" />
     </div>
     <div class="big">
         <img src="img/articles/50/019_P7310310.jpg" alt="" />
     </div>
-    <div class="tall">
+    <div class="">
         <img src="img/articles/50/020_P9090141.jpg" alt="" />
     </div>
     
