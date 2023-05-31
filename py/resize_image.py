@@ -3,20 +3,13 @@ import os
 
 quality = 25
 
-input_articles_dir = os.path.join(os.getcwd(), "img", "articles", "100")
-ouput_articles_dir = os.path.join(os.getcwd(), "img", "articles", str(quality))
+input_image = input('Link to img : ')
+dir = os.path.dirname(input_image)
 
-if not os.path.isdir(ouput_articles_dir):
-    os.makedirs(ouput_articles_dir)
-
-index = 1
-
-for image in os.listdir(input_articles_dir):
-
-    input_path = os.path.join(input_articles_dir, image)
-    filename = os.path.splitext(os.path.basename(input_path))[0]
-    output_path = os.path.join(ouput_articles_dir, f'{index:03d}'  + "_" + filename + '.jpg')
-    im = Image.open(input_path)
+try :  
+    filename = os.path.splitext(os.path.basename(input_image))[0]
+    output_path = os.path.join(dir, f'{quality}'  + "_" + filename + '.jpg')
+    im = Image.open(input_image)
     im.save(output_path, format='JPEG', quality=quality)
-
-    index +=1
+except Exception as e : 
+    print(e)

@@ -13,7 +13,8 @@ with open(output_html, 'w') as f:
     
     for image in os.listdir(input_dir):
 
-        class_css = random.choice(class_css_list)
+        # class_css = random.choice(class_css_list)
+        class_css = random.choices(class_css_list, weights=(10, 20, 20, 50), k=1)[0]
         
         input_path = os.path.join(input_dir, image)
         filename = os.path.splitext(os.path.basename(input_path))[0]

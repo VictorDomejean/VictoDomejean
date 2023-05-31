@@ -1,13 +1,13 @@
-// Gestion clique sur une image
-
 const imgs = document.querySelectorAll('.grid-wrapper div img');
 const imgDivs = document.querySelectorAll('.grid-wrapper div');
 const fullimage = document.querySelector('#fullimage');
 const imagebackground = document.querySelector('#imagebackground');
 const swicthbox = document.querySelector('#switch-checkbox');
 
+// Gestion clique sur une image
 imgs.forEach(img => {
   img.addEventListener('click', function() {
+
     fullimage.style.backgroundImage = 'url(' + img.src + ')';
     fullimage.style.display = 'block';
     imagebackground.style.display = 'block';

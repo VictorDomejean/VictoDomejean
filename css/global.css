@@ -1,17 +1,16 @@
-   body{
-    margin: 0;
-   }
 
-   html {
+html {
     scroll-behavior:smooth;
-  }
+}
 
 
 /* HIDE SCROLLBAR */
 body {
+    margin: 0;
     -ms-overflow-style: none;
     scrollbar-width: none; 
-    overflow-y: scroll; 
+    overflow-y: scroll;
+    font-family: monospace;
   }
   
 body::-webkit-scrollbar {
@@ -29,7 +28,7 @@ body::-webkit-scrollbar {
 #top{
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(img_css/background.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(img_css/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
@@ -45,18 +44,15 @@ body::-webkit-scrollbar {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
     padding: 20px;
     background-color: white;
     z-index: 2;
-    box-shadow: 0px 25px 2px -25px #414141;
 }
 
 .menu-item{
     text-transform: uppercase;
     font-size: smaller;
     font-weight: lighter;
-    font-family: system-ui, sans-serif;
     color: #191919;
     text-decoration: none;
 }
@@ -82,7 +78,6 @@ body::-webkit-scrollbar {
 #small-title-image{
     font-weight: bolder;
     font-size: smaller;
-    margin-left: 20px;
 }
 
 #vd{
@@ -96,16 +91,18 @@ body::-webkit-scrollbar {
     padding-inline: 10px;
 }
 #contact:hover{
-    transform: scale(1.03);
+    /* transform: scale(1.03); */
     text-decoration: none;
     cursor: pointer;
 }
 
 .menu-item:hover{
-    text-decoration: underline #191919;
+    /* text-decoration: underline #191919;
     text-decoration-thickness: 2px;
-    text-underline-offset: 5px;
+    text-underline-offset: 5px; */
     cursor: pointer;
+    color: #2196F3;
+    font-weight: 700;
 }
 
 #space{
@@ -117,36 +114,34 @@ body::-webkit-scrollbar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: justify;
-    padding: 10px;
-    padding-inline: 70px;
-    display: flex;
-    background: rgba(255, 255, 255, 0.045);
-    max-width: 350px;
+    /* /* text-align: justify; */
+    /* padding: 10px;
+    padding-inline: 70px; */
+    /* background: rgba(255, 255, 255, 0.045); */
+    /* max-width: 350px;  */
     /* border: 1px solid rgba(255,255,255, 0.2); */
-    webkit-backdrop-filter: blur(30px);
+    /* webkit-backdrop-filter: blur(30px);
     backdrop-filter: blur(2px);
-    box-shadow: 1px 2px 3px rgb(43 43 43 / 23%);
+    box-shadow: 1px 2px 3px rgb(43 43 43 / 23%);*/
 }
 
 #title{
     display: flex;
     margin: 0;
     font-size: xxx-large;
-    font-family: 'ui-serif'
 }
 
 #title-caption{
     display: flex;
     margin: 0;
     justify-content: center;
-    font-family: system-ui, sans-serif;
     font-size: smaller;
     font-weight: lighter;
 }
 
+
 #banner{
-    height: 200px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,7 +151,6 @@ body::-webkit-scrollbar {
 
 #page{
     position: relative;
-    min-height: 100vh;
 }
 
 #corp{
@@ -197,7 +191,6 @@ body::-webkit-scrollbar {
     background: rgba(255, 255, 255, 0.500);
     box-shadow: 1px 2px 3px rgb(43 43 43 / 23%);
     border: none;
-    font-family: system-ui, sans-serif;
     font-size: smaller;
     color: #ffffff;
     font-weight: bolder;
@@ -253,15 +246,12 @@ body::-webkit-scrollbar {
 }
 
 #contact-container{
-    justify-content: space-around;
-    font-size: small;
+    justify-content: center;
     margin-inline: 100px;
-    margin-top: 50px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     cursor: pointer;
-    color: #191919;
+    gap: 50px;
 }
 
 .icon-item{
@@ -337,7 +327,6 @@ body::-webkit-scrollbar {
 
 .attrib{
     display: flex;
-    font-family: system-ui, sans-serif;
     font-size: smaller;
     font-weight: lighter;
 }
@@ -364,7 +353,6 @@ body::-webkit-scrollbar {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    font-family: system-ui, sans-serif;
     font-size: smaller;
     font-weight: lighter;
     margin-block: 10px;
@@ -432,4 +420,14 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+@media screen and (max-width: 750px){
+    #banner{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }

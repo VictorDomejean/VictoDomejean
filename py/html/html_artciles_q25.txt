@@ -1,22 +1,22 @@
-<div class="wide">
+<div class="">
         <img src="img/articles/25/001_DSC01289.jpg" alt="" />
     </div>
     <div class="tall">
         <img src="img/articles/25/002_DSC01318.jpg" alt="" />
     </div>
-    <div class="wide">
+    <div class="">
         <img src="img/articles/25/003_DSC01425.jpg" alt="" />
     </div>
-    <div class="big">
+    <div class="">
         <img src="img/articles/25/004_DSC01430.jpg" alt="" />
     </div>
-    <div class="big">
+    <div class="">
         <img src="img/articles/25/005_DSC01434.jpg" alt="" />
     </div>
-    <div class="tall">
+    <div class="">
         <img src="img/articles/25/006_DSC01452.jpg" alt="" />
     </div>
-    <div class="tall">
+    <div class="">
         <img src="img/articles/25/007_DSC01464.jpg" alt="" />
     </div>
     <div class="big">
@@ -25,127 +25,97 @@
     <div class="big">
         <img src="img/articles/25/009_DSC01480.jpg" alt="" />
     </div>
-    <div class="tall">
+    <div class="">
         <img src="img/articles/25/010_DSC01493.jpg" alt="" />
     </div>
-    <div class="">
+    <div class="tall">
         <img src="img/articles/25/011_IMG_20200818_102229.jpg" alt="" />
     </div>
-    <div class="tall">
-        <img src="img/articles/25/011_IMG_20200927_154619.jpg" alt="" />
-    </div>
-    <div class="big">
+    <div class="">
         <img src="img/articles/25/012_IMG_20200912_160328.jpg" alt="" />
     </div>
-    <div class="big">
-        <img src="img/articles/25/012_P1010018.jpg" alt="" />
-    </div>
-    <div class="big">
+    <div class="">
         <img src="img/articles/25/013_IMG_20200927_154619.jpg" alt="" />
     </div>
     <div class="big">
-        <img src="img/articles/25/013_P1010065.jpg" alt="" />
-    </div>
-    <div class="">
         <img src="img/articles/25/014_IMG_20201027_153637_1.jpg" alt="" />
-    </div>
-    <div class="">
-        <img src="img/articles/25/014_P1010082.jpg" alt="" />
     </div>
     <div class="tall">
         <img src="img/articles/25/015_IMG_20201027_154803.jpg" alt="" />
     </div>
-    <div class="big">
-        <img src="img/articles/25/015_P1280083.jpg" alt="" />
-    </div>
-    <div class="big">
+    <div class="wide">
         <img src="img/articles/25/016_IMG_20201027_161330.jpg" alt="" />
     </div>
-    <div class="wide">
-        <img src="img/articles/25/016_P2120103.jpg" alt="" />
-    </div>
-    <div class="wide">
+    <div class="">
         <img src="img/articles/25/017_IMG_20201213_113306.jpg" alt="" />
     </div>
-    <div class="wide">
-        <img src="img/articles/25/017_P2120114.jpg" alt="" />
-    </div>
-    <div class="big">
+    <div class="tall">
         <img src="img/articles/25/018_IMG_20210612_134725.jpg" alt="" />
     </div>
     <div class="tall">
-        <img src="img/articles/25/018_P2250319.jpg" alt="" />
-    </div>
-    <div class="wide">
         <img src="img/articles/25/019_IMG_20210805_172921.jpg" alt="" />
     </div>
-    <div class="wide">
-        <img src="img/articles/25/019_P7310310.jpg" alt="" />
-    </div>
-    <div class="big">
+    <div class="tall">
         <img src="img/articles/25/020_IMG_20210806_105805.jpg" alt="" />
     </div>
-    <div class="wide">
-        <img src="img/articles/25/020_P9090141.jpg" alt="" />
-    </div>
-    <div class="big">
+    <div class="">
         <img src="img/articles/25/021_IMG_20210806_203025.jpg" alt="" />
     </div>
-    <div class="">
+    <div class="tall">
         <img src="img/articles/25/022_IMG_20220206_074041.jpg" alt="" />
     </div>
-    <div class="tall">
+    <div class="">
         <img src="img/articles/25/023_IMG_20220803_093715.jpg" alt="" />
     </div>
     <div class="big">
         <img src="img/articles/25/024_IMG_20220803_103645.jpg" alt="" />
     </div>
-    <div class="big">
+    <div class="">
         <img src="img/articles/25/025_IMG_20220804_132221.jpg" alt="" />
     </div>
-    <div class="big">
+    <div class="">
         <img src="img/articles/25/026_IMG_20220804_133058.jpg" alt="" />
     </div>
-    <div class="wide">
+    <div class="tall">
         <img src="img/articles/25/027_IMG_20220804_172301.jpg" alt="" />
     </div>
-    <div class="big">
+    <div class="wide">
         <img src="img/articles/25/028_IMG_20220815_065602.jpg" alt="" />
     </div>
-    <div class="wide">
+    <div class="tall">
         <img src="img/articles/25/029_IMG_20220821_134202.jpg" alt="" />
     </div>
-    <div class="">
+    <div class="wide">
         <img src="img/articles/25/030_IMG_20220822_140516.jpg" alt="" />
     </div>
-    <div class="big">
+    <div class="">
         <img src="img/articles/25/031_IMG_20220823_193446.jpg" alt="" />
     </div>
-    <div class="wide">
+    <div class="">
         <img src="img/articles/25/032_P1010018.jpg" alt="" />
     </div>
     <div class="wide">
         <img src="img/articles/25/033_P1010065.jpg" alt="" />
     </div>
-    <div class="wide">
+    <div class="">
         <img src="img/articles/25/034_P1010082.jpg" alt="" />
     </div>
-    <div class="big">
+    <div class="tall">
         <img src="img/articles/25/035_P1280083.jpg" alt="" />
     </div>
     <div class="">
         <img src="img/articles/25/036_P2120103.jpg" alt="" />
     </div>
-    <div class="tall">
+    <div class="wide">
         <img src="img/articles/25/037_P2120114.jpg" alt="" />
     </div>
-    <div class="">
+    <div class="tall">
         <img src="img/articles/25/038_P2250319.jpg" alt="" />
     </div>
-    <div class="wide">
+    <div class="big">
         <img src="img/articles/25/039_P7310310.jpg" alt="" />
     </div>
-    <div class="big">
+    <div class="tall">
         <img src="img/articles/25/040_P9090141.jpg" alt="" />
     </div>
     
