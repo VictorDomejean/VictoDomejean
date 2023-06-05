@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Victor Doméjean</title>
   <link rel="stylesheet" href="css/global.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body id="top-page">
     <div id="main">
@@ -12,28 +13,23 @@
                 <div id="small-title-image">
                     <img src="img/vd.png" alt="" id="vd">
                 </div>
-                <!-- <div id="small-title">VICTOR&numsp;DOM&Eacute;JEAN</div> -->
             </div>
             <div id="menu-item-list">
-                <!-- <a class="menu-item" href="https://victordomejean.github.io/website/index.html">Acceuil</a>
-                <a class="menu-item" href="https://victordomejean.github.io/website/articles.html">Photos & Articles</a>
-                <a class="menu-item" href="https://victordomejean.github.io/website/apropos.html">&Agrave; propos</a> -->
-                <a class="menu-item" href="index.html">Acceuil</a>
-                <a class="menu-item" href="articles.html">Photos & Articles</a>
-                <a class="menu-item" href="apropos.html">&Agrave; propos</a>
-                <a id="contact" class="menu-item">Contact</a>
+                <a class="menu-item hovering-text" href="index.html">About</a>
+                <a class="menu-item hovering-text" href="articles.html">Photos</a>
+                <a id="contact" class="menu-item hovering-text" href="#contact-container">Contact</a>
             </div>
         </div>
         <div id="corp"> 
             <div id="fullimage"></div>
             <div id="imagebackground"></div>
             <div id="switch-span">
-                <span>Noir & blanc</span>
+                <span>Black & white</span>
                 <label class="switch">
                     <input id="switch-checkbox" type="checkbox" unchecked>
                     <span class="slider round"></span>
                 </label>
-                <span>Couleur</span>
+                <span>Color</span>
             </div>
             <!-- <button class="read">READ</button> -->
             <div class="grid-wrapper">
@@ -162,24 +158,27 @@
         </div>
         <div id="footer">
             <div id="contact-container">
-                <div class="icon-item">
-                    <img  class="image-icon" src="img/github.png" alt="">
-                </div>
-                <div class="icon-item">
-                    <img class="image-icon" src="img/mail.png" alt="">
-                </div>
-                <div class="icon-item">
-                    <img class="image-icon" src="img/linkedin.png" alt="">
-                </div>
+                <a  href="https://github.com/VictorDomejean">
+                    <div class="icon-item">
+                        <img  class="image-icon" src="img/github.png" alt="">
+                    </div>
+                </a>
+                <a href="mailto:victor.domejean@gmail.com">                
+                    <div class="icon-item">
+                        <img  class="image-icon" src="img/mail.png" alt="">
+                    </div></a>
+                <a href="https://www.linkedin.com/in/sfrgcuujvxxhvyukknopllb">
+                    <div class="icon-item">
+                        <img  class="image-icon" src="img/linkedin.png" alt="">
+                    </div>
+                </a>
             </div>
             <div id="haut">
-                <a href="#top-page">&upuparrows;</a>
-                <div>Haut de page</div>
+                <a class="arrow-up" href="#top-page">&upuparrows;</a>
+                <div>Scroll top</div>
             </div>
             <div id="attributions">
-                <div class="attrib">Mention légales</div>
-                <div class="attrib">Politique de confidentialité</div>
-                <div class="attrib">&copy; 2023 - Doméjean Victor - Tous droits réservés.</div>
+                <div class="attrib hovering-text">Copyright &copy; 2023 - Doméjean Victor</div>
             </div>
         </div>
     </div>

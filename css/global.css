@@ -22,7 +22,8 @@ body::-webkit-scrollbar {
 /* MAIN */
 #main{
     margin: 0;
-}
+    height: 100vh;
+} 
 
 /* TOP */
 #top{
@@ -31,7 +32,6 @@ body::-webkit-scrollbar {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(img_css/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 80%;
     background-size: cover;
     color: white;
     filter: grayscale(100%);
@@ -53,7 +53,7 @@ body::-webkit-scrollbar {
     text-transform: uppercase;
     font-size: smaller;
     font-weight: lighter;
-    color: #191919;
+    color: #262c31;
     text-decoration: none;
 }
 
@@ -84,6 +84,11 @@ body::-webkit-scrollbar {
     width: 35px;
 }
 
+#vd:hover{
+    filter: invert(1);
+    cursor: pointer;
+}
+
 #contact{
     border: 1px solid;
     border-radius: 20px;
@@ -91,43 +96,23 @@ body::-webkit-scrollbar {
     padding-inline: 10px;
 }
 #contact:hover{
-    /* transform: scale(1.03); */
     text-decoration: none;
     cursor: pointer;
 }
 
-.menu-item:hover{
-    /* text-decoration: underline #191919;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 5px; */
+.hovering-text:hover{
     cursor: pointer;
-    color: #2196F3;
-    font-weight: 700;
-}
-
-#space{
-    display: flex;
-    height: 100px;
+    color: #262c31;
+    font-weight: 900;
 }
 
 #title-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* /* text-align: justify; */
-    /* padding: 10px;
-    padding-inline: 70px; */
-    /* background: rgba(255, 255, 255, 0.045); */
-    /* max-width: 350px;  */
-    /* border: 1px solid rgba(255,255,255, 0.2); */
-    /* webkit-backdrop-filter: blur(30px);
-    backdrop-filter: blur(2px);
-    box-shadow: 1px 2px 3px rgb(43 43 43 / 23%);*/
 }
 
 #title{
-    display: flex;
-    margin: 0;
     font-size: xxx-large;
 }
 
@@ -141,10 +126,25 @@ body::-webkit-scrollbar {
 
 
 #banner{
-    height: 300px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.arrow-down{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.arrow-up{
+    color: #262c31;
+    text-decoration: none;
+    font-size: xx-large;
 }
 
 /* CORP */
@@ -219,9 +219,8 @@ body::-webkit-scrollbar {
     min-width: 200px;
     height: auto;
     margin-bottom: auto;
-    padding-right: 20px;
     filter: grayscale(100%);
-    transition: all .5s ease-in-out;
+    transition: all .2s ease-in-out;
     border-radius: 5px;
 }
 
@@ -255,6 +254,10 @@ body::-webkit-scrollbar {
 }
 
 .icon-item{
+}
+
+.icon-item:hover{
+    filter: invert(1);
 }
 
 .image-icon{
@@ -321,7 +324,7 @@ body::-webkit-scrollbar {
     display: flex;
     flex-direction: row;
     cursor: pointer;
-    color: #191919;
+    color: #262c31;
     margin-top: 50px;
 }
 
@@ -331,19 +334,13 @@ body::-webkit-scrollbar {
     font-weight: lighter;
 }
 
-.attrib:hover{
-    text-decoration: underline #191919;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 5px;
-    cursor: pointer;
-}
 
 #haut{
     display: flex;
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    color: #191919;
+    color: #262c31;
     margin-top: 50px;
 }
 
@@ -379,7 +376,7 @@ body::-webkit-scrollbar {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #c9c9c9;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -391,7 +388,7 @@ body::-webkit-scrollbar {
   width: 12px;
   left: 2px;
   bottom: 2px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -400,11 +397,11 @@ right: 4px;
   }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #262c31;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  /* box-shadow: 0 0 1px #242424; */
 }
 
 input:checked + .slider:before {
@@ -422,12 +419,23 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-@media screen and (max-width: 750px){
-    #banner{
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+@media all and (max-width: 750px){
+
+    #corp{
+        margin-inline: 20px;
     }
-    
+
+    .grid-wrapper > div{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    #description-container{
+        width: auto;
+    }
+
+    #title{
+        font-size: xx-large;
+    }
+
 }
