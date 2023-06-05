@@ -253,6 +253,7 @@ body::-webkit-scrollbar {
 
 #description-text{
     display: flex;
+    flex-direction: column;
 }
 
 #contact-container{
