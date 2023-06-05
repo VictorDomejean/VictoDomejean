@@ -23,6 +23,7 @@ body::-webkit-scrollbar {
 #main{
     margin: 0;
     height: 100vh;
+    display: contents;
 } 
 
 /* TOP */
@@ -246,7 +247,6 @@ body::-webkit-scrollbar {
 
 #contact-container{
     justify-content: center;
-    margin-inline: 100px;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -308,14 +308,8 @@ body::-webkit-scrollbar {
 /* FOOTER */
 
 #footer{
-    display: flex;
-    /* position: absolute; */
     margin-bottom: 25px;
-    margin-top: 100px;
-    gap: 10px;
-    bottom: 0;
-    width: 100%;
-    flex-direction: column;
+    padding-top: 100px;
 }
 
 #attributions{
@@ -441,6 +435,10 @@ input:checked + .slider:before {
     }
     
     #menu-item-list{
+        gap: 20px;
+    }
+
+    #contact-container{
         gap: 20px;
     }
 
