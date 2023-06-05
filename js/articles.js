@@ -20,7 +20,7 @@ imgs.forEach(img => {
   });
 });
 
-fullimage.addEventListener('click', function() {
+imagebackground.addEventListener('click', function() {
     fullimage.style.display = 'none';
     imagebackground.style.display = 'none';
 });
