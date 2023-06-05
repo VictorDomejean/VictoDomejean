@@ -326,6 +326,7 @@ body::-webkit-scrollbar {
     cursor: pointer;
     color: #262c31;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .attrib{
@@ -423,6 +424,7 @@ input:checked + .slider:before {
 
     #corp{
         margin-inline: 20px;
+        margin-top: 20px;
     }
 
     .grid-wrapper > div{
@@ -436,6 +438,10 @@ input:checked + .slider:before {
 
     #title{
         font-size: xx-large;
+    }
+    
+    #menu-item-list{
+        gap: 20px;
     }
 
 }
