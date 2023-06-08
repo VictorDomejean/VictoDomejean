@@ -2,7 +2,7 @@ const imgs = document.querySelectorAll('.grid-wrapper div img');
 const imgDivs = document.querySelectorAll('.grid-wrapper div');
 const fullimage = document.querySelector('#fullimage');
 const imagebackground = document.querySelector('#imagebackground');
-const closeButton = document.querySelector('#close');
+const closeArea = document.querySelector('#close-area');
 const swicthbox = document.querySelector('#switch-checkbox');
 
 // Gestion clique sur une image
@@ -11,7 +11,7 @@ imgs.forEach(img => {
 
     fullimage.style.backgroundImage = 'url(' + img.src + ')';
     fullimage.style.display = 'block';
-    closeButton.style.display = 'block';
+    closeArea.style.display = 'block';
     imagebackground.style.display = 'block';
     if(swicthbox.checked){
         fullimage.style.filter = 'grayscale(0%)'
@@ -22,10 +22,10 @@ imgs.forEach(img => {
   });
 });
 
-closeButton.addEventListener('click', function() {
+closeArea.addEventListener('click', function() {
     fullimage.style.display = 'none';
     imagebackground.style.display = 'none';
-    closeButton.style.display = 'none';
+    closeArea.style.display = 'none';
 });
 
 
