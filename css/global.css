@@ -52,7 +52,6 @@ body::-webkit-scrollbar {
 
 .menu-item{
     text-transform: uppercase;
-    font-size: smaller;
     font-weight: lighter;
     color: #262c31;
     text-decoration: none;
@@ -377,7 +376,6 @@ body::-webkit-scrollbar {
 
 .attrib{
     display: flex;
-    font-size: smaller;
     font-weight: lighter;
 }
 
@@ -482,12 +480,12 @@ input:checked + .slider:before {
         width: auto;
     }
 
-    /* #title{
-        font-size: xx-large;
-    } */
-    
+    .menu-item{
+        font-size: xx-small;
+    }
+
     #menu-item-list{
-        gap: 20px;
+        gap: 10px;
     }
 
     #contact-container{

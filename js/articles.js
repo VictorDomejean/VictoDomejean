@@ -22,6 +22,7 @@ imgs.forEach(img => {
   });
 });
 
+// Dive transparente pour fermer l'image
 closeArea.addEventListener('click', function() {
     fullimage.style.display = 'none';
     imagebackground.style.display = 'none';
@@ -30,7 +31,6 @@ closeArea.addEventListener('click', function() {
 
 
 // Gestion filtre sur les images
-
 swicthbox.onclick = function(){
     if (swicthbox.checked)
         {
