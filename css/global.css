@@ -95,7 +95,7 @@ body::-webkit-scrollbar {
     cursor: pointer;
 }
 
-#contact{
+ .round{
     border: 1px solid;
     border-radius: 20px;
     padding: 3px;
