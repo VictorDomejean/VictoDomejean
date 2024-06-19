@@ -255,13 +255,13 @@ body::-webkit-scrollbar {
 
 #presentation-container{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
 }
 
 #picture-container{
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 #intro-image{
